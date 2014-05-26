@@ -1,0 +1,16 @@
+{
+  "name": "ibeacon-door-open",
+  "version": "0.0.0",
+  "description": "watch region tuple from ibeacon, open door",
+  "main": "ibeacon-door-open.coffee",
+  "scripts": {
+    "start": "./node_modules/coffee-script/bin/coffee ibeacon-door-open.coffee"
+  },
+  "author": "Sho Hashimoto <hashimoto@shokai.org>",
+  "license": "MIT",
+  "dependencies": {
+    "coffee-script": "^1.7.1",
+    "linda-socket.io": "^0.2.0",
+    "socket.io-client": "^0.9.17"
+  }
+}
