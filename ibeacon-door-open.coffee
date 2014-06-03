@@ -3,7 +3,7 @@ path = require 'path'
 config = require path.resolve 'config'
 console.log config
 
-LindaClient = require('linda-socket.io').Client
+LindaClient = require('linda').Client
 socket = require('socket.io-client').connect(config.url)
 linda = new LindaClient().connect(socket)
 
